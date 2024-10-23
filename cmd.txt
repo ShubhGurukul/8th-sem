@@ -8,3 +8,48 @@ Reinitialized existing Git repository in C:/Users/toshu/Downloads/8th sem/8th se
 
 >> git commit -m "docs added"
 
+>> gh repo create
+'gh' is not recognized as an internal or external command,
+
+
+>> winget install --id github.cli
+
+
+
+>> gh auth login
+? Where do you use GitHub? GitHub.com
+? What is your preferred protocol for Git operations on this host? HTTPS
+? Authenticate Git with your GitHub credentials? Yes
+? How would you like to authenticate GitHub CLI? Login with a web browser
+
+! First copy your one-time code: 376E-259A
+Press Enter to open https://github.com/login/device in your browser...
+✓ Authentication complete.
+- gh config set -h github.com git_protocol https
+✓ Configured git protocol
+✓ Logged in as ShubhGurukul
+
+
+>> gh repo create
+? What would you like to do? Push an existing local repository to GitHub
+? Path to local repository (.) .
+
+? Path to local repository .
+? Repository name 8th sem
+? Description This is the repository have learinings and outcome of 8th sem, B.E.
+? Visibility Public
+✓ Created repository ShubhGurukul/8th-sem on GitHub
+? Add a remote? Yes
+? What should the new remote be called? origin
+? Would you like to push commits from the current branch to "origin"? Yes
+Enumerating objects: 50, done.ts from the current branch to "origin"? (Y/n) y
+Counting objects: 100% (50/50), done.
+Delta compression using up to 18 threads
+Compressing objects: 100% (49/49), done.
+Writing objects: 100% (50/50), 57.77 MiB | 4.40 MiB/s, done.
+Total 50 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/ShubhGurukul/8th-sem.git
+ * [new branch]      HEAD -> master
+branch 'master' set up to track 'origin/master'.
+✓ Pushed commits to https://github.com/ShubhGurukul/8th-sem.git
