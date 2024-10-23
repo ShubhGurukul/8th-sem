@@ -1,0 +1,10 @@
+>> git init -b main
+
+warning: re-init: ignored --initial-branch=main
+Reinitialized existing Git repository in C:/Users/toshu/Downloads/8th sem/8th sem/.git/
+
+
+>> git add .
+
+>> git commit -m "docs added"
+
